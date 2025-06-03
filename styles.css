@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.riesgos-list label {
+  display: block;
+  margin: 8px 0;
+}
+
+.riesgo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.nivel-riesgo {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  color: white;
+}
+
+.nivel-bajo {
+  background: linear-gradient(to right, #00c853, #64dd17);
+}
+
+.nivel-medio {
+  background: linear-gradient(to right, #ffeb3b, #fbc02d);
+  color: #000;
+}
+
+.nivel-alto {
+  background: linear-gradient(to right, #ff5252, #d50000);
+}

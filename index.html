@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matriz de Riesgos - Juan Valdez</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Matriz de Riesgos</h1>
+
+    <label for="tipoRiesgo">Tipo de Riesgo:</label>
+    <select id="tipoRiesgo">
+      <option value="todos">Todos</option>
+      <option value="ambiental">Ambiental</option>
+      <option value="operativo">Operativo</option>
+      <option value="financiero">Financiero</option>
+      <option value="tecnologico">Tecnológico</option>
+      <option value="legal">Legal</option>
+      <option value="reputacional">Reputacional</option>
+    </select>
+
+    <div id="riesgosContainer" class="riesgos-list"></div>
+
+    <h2>Riesgos Seleccionados</h2>
+    <div id="riesgosSeleccionados"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
